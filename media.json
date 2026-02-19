@@ -1,0 +1,44 @@
+[
+  {
+    "file": "day_13_hytale.jpg",
+    "type": "image",
+    "title": "Day 13 Village Concept",
+    "description": "Early Hytale village mood study with layered lighting.",
+    "tags": ["hytale", "environment", "lighting"]
+  },
+  {
+    "file": "dl4wnbz-66d5368b-9a9c-4ce2-a6ad-fa303e7b1e5a.gif",
+    "type": "gif",
+    "title": "Creature Animation Loop",
+    "description": "Animated creature pass for encounter prototyping.",
+    "tags": ["animation", "npc", "enemy"]
+  },
+  {
+    "file": "BrokenSlimeAnim.mp4",
+    "type": "video",
+    "title": "Broken Slime Test",
+    "description": "Gameplay-facing slime animation test clip.",
+    "tags": ["video", "animation", "combat"]
+  },
+  {
+    "file": "hytale minecraft blockbench 3d model props assets.png",
+    "type": "image",
+    "title": "Blockbench Props Sheet",
+    "description": "Prop asset lineup for modular fantasy environments.",
+    "tags": ["props", "modeling", "minecraft"]
+  },
+  {
+    "file": "mushroom_guy.jpg",
+    "type": "image",
+    "title": "Mushroom Character",
+    "description": "Character concept used for whimsical biome encounters.",
+    "tags": ["character", "concept", "hytale"]
+  },
+  {
+    "file": "dlbyry2-cfcf24d4-d52a-4609-9ec7-4f5ec83513c1.png",
+    "type": "image",
+    "title": "Fantasy Build Snapshot",
+    "description": "Structure showcase from in-progress worldbuilding set.",
+    "tags": ["build", "environment", "fantasy"]
+  }
+]
