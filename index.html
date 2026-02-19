@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hytale and Minecraft portfolio featuring environment art, animations, and gameplay-ready assets."
+    />
+    <title>Hytale / Minecraft Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="site-texture" aria-hidden="true"></div>
+
+    <header class="hero panel reveal" id="top">
+      <div class="panel-header">Adventurer's Portfolio</div>
+      <div class="hero-content">
+        <p class="eyebrow">Creative Showcase</p>
+        <h1>Quasar Maple</h1>
+        <p class="subtitle">Hytale Mod Developer | Minecraft Builder</p>
+        <a class="cta-button" href="#gallery">View Gallery</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel reveal" id="about">
+        <div class="panel-header">About</div>
+        <div class="panel-body">
+          <p>
+            I create fantasy-first game experiences with a focus on environmental storytelling,
+            worldbuilding, and polished animation loops. My projects blend Hytale-inspired art
+            direction with practical game-ready implementation for modding and playable worlds.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel reveal" id="gallery">
+        <div class="panel-header">Gallery</div>
+        <div class="panel-body">
+          <div class="filter-wrap">
+            <h2>Filter by Tag</h2>
+            <div id="tagFilters" class="tag-filters" aria-label="Media tag filters"></div>
+          </div>
+          <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="panel reveal" id="contact">
+        <div class="panel-header">Contact</div>
+        <div class="panel-body">
+          <p>Interested in custom world design, mods, or animation support?</p>
+          <a class="cta-button secondary" href="mailto:hello@example.com">Send a Raven</a>
+        </div>
+      </section>
+    </main>
+
+    <div id="mediaModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-overlay" data-close="true"></div>
+      <div class="modal-window panel">
+        <button class="close-btn" id="modalClose" type="button" aria-label="Close preview">
+          ✕
+        </button>
+        <div class="panel-header">Preview</div>
+        <div class="modal-content" id="modalContent"></div>
+      </div>
+    </div>
+  </body>
+</html>
